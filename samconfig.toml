@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "make-twitter-positive-backend"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-xmo8hslek27f"
+s3_prefix = "make-twitter-positive-backend"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
